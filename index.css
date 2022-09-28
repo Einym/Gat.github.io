@@ -28,8 +28,37 @@ a {
     color: rgb(100, 16, 40);
 }
 
+li a {
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+}
+
+.Menu {
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Menu {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 16, 40);
+    border-radius: 1px;
+    box-shadow: 1px 1px 5px black;
+    width: 100%;
+}
+
 .Titulo {
     font-size: 100px;
+    padding: 10px;
 }
 
 .Div0 {
