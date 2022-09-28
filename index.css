@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(89, 13, 34);
+    display: grid;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 16, 40);
+}
+
+.Titulo {
+    font-size: 100px;
+}
+
+.Div0 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.Div2 {
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 5px;
+    background-color: rgb(100, 16, 40);
+}
+
+.Div2 {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: auto;
+}
+
+.Div2:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.Div1 {
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 5px;
+    background-color: rgb(100, 16, 40);
+}
+
+.Div1 {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: auto;
+}
+
+.Div1:hover {
+    transform: scale(1.05, 1.05);
+}
